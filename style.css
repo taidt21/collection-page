@@ -136,10 +136,6 @@ a{
     margin-left: 36px;
     border-color: #e0e0e0;
 }
-.btn-popularity:after{
-    margin-left:105px;
-    color: #000;
-}
 .pour-2{
     margin: 0 40px;
 }
@@ -192,6 +188,7 @@ div.mt-15{
     width: 320px;
     
 }
+
 .hat{
     display: none!important;
 }
