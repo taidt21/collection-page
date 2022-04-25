@@ -1,0 +1,17 @@
+@media(min-width:992px){
+   header .container{
+        max-width: 1640px;
+    }
+    section .container{
+        max-width: 1400px;
+    }
+    section.collection hr{
+        width:320px;
+    }
+    header .container, .section.home .container{
+        max-width: 1640px;
+    }
+    
+}
+
+  
