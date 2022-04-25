@@ -26,7 +26,7 @@ $('.autoplay').slick({
       }
     },
    {
-     breakpoint:992,
+     breakpoint:768,
      settings:{
        slidesToShow:1,
        slidesToScroll:1,

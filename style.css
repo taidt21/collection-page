@@ -50,21 +50,42 @@ a{
 }
 /*SECTION HOME*/
 .home{
-    z-index: -1;   
+    background-image: url(img/Rectangle-4-copy-3.jpg);
     background-color: #f1f1f1; 
+    min-height:364px;
+    background-position:center center;
+    background-repeat: no-repeat;
+    
 }
-.rectangle-4{
-    width: 100%;
-    height: 100%;
+.spring {
+    margin-left:20%;
+    margin-top:-90%;  
 }
+.shop-now{
+    max-width: 320px;
+    min-height: 483px;
+}
+.shop_now{
+    letter-spacing: 2px;
+    border-bottom: 2px solid #000;
+    max-width: 97px;
+}
+
+.home .container{
+    min-height: 364px;
+}
+  
+
 #price{
     width: 100%;
 }
-/*SECTION COLLECTION*/
-.collection{
-    margin-top: 43px;
-    
+.home .divider{
+    width: 74px;
+    height: 2px;
+
 }
+/*SECTION COLLECTION*/
+
 .collection h3{
     font-size: 14px;
 }
@@ -236,7 +257,7 @@ div.mt-15{
 /*FOOTER*/
 footer{
     background-color: #161616;
-    padding-bottom: 100px;
+    
 }
 footer h3{
     margin-top:70px;
@@ -272,9 +293,7 @@ footer >hr{
 footer .container:last-child{
     height:76px;
 }
-footer .container:last-child .row{
-    line-height: 76px;
-}
+
   
   
 
