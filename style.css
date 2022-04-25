@@ -136,6 +136,7 @@ a{
     margin-left: 36px;
     border-color: #e0e0e0;
 }
+
 .pour-2{
     margin: 0 40px;
 }
@@ -161,6 +162,7 @@ div.mt-15{
 .number{
     margin-left:35px;
 }
+
 .number-item{
     width: 36px;
     height: 36px;
@@ -188,7 +190,6 @@ div.mt-15{
     width: 320px;
     
 }
-
 .hat{
     display: none!important;
 }
