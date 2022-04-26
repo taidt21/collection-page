@@ -116,11 +116,38 @@ a{
     font-size: 24px!important;
 }
 
-input[type=radio]{
-    background-image:url(img/Mandy.png)!important;
-    background:#fff;
+#light-brown{
+    background-image: url(img/Copperfield.png);
 }
-
+#violet{
+    background-image: url(img/Lavender.png);
+}
+#light-blue{
+    background-image:url(img/Viking.png);
+}
+#brown-black{
+    background-image: url(img/Cedar.png);
+}
+#grey{
+    background-image:url(img/Mercury.png);
+}
+#dark-blue{
+    background-image:url(img/Viking2.png)
+}
+#dark{
+    background-image: url(img/Black.png);
+}
+#light-red{
+    background-image: url(img/Mandy.png);
+}
+input[type=radio]{
+    background-size: 85%;
+}
+input[type=radio]:checked,input[type=radio]:active{
+    box-shadow: none!important;
+    border-color: #000;
+    background-color: #fff;
+}
 .collection .nav-link-primary:hover,.nav-link-primary:active,.nav-link-primary:focus{
     color: #48c8fd!important;
 }
