@@ -53,7 +53,8 @@ a{
     background-image: url(img/Rectangle-4-copy-3.jpg);
     background-color: #f1f1f1; 
     min-height:364px;
-    background-position:center center;
+    background-size: cover;
+    background-position:top right;
     background-repeat: no-repeat;
     
 }
@@ -67,7 +68,7 @@ a{
 }
 .shop_now{
     letter-spacing: 2px;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #fff;
     max-width: 97px;
 }
 
