@@ -65,6 +65,7 @@ a{
 .shop-now{
     max-width: 320px;
     min-height: 483px;
+    
 }
 .shop_now{
     letter-spacing: 2px;
@@ -114,6 +115,12 @@ a{
 .fs-24{
     font-size: 24px!important;
 }
+
+input[type=radio]{
+    background-image:url(img/Mandy.png)!important;
+    background:#fff;
+}
+
 .collection .nav-link-primary:hover,.nav-link-primary:active,.nav-link-primary:focus{
     color: #48c8fd!important;
 }
@@ -278,8 +285,12 @@ footer .col hr{
      width: 46px;
      height: 45px;
  }
- 
+ .social-icon:hover{
+     background-color:rgb(237, 229, 229);
+     color: #222!important;
+ }
 
+  
 
 footer .col-md-4 hr{
     background-color: #48c8fd;
