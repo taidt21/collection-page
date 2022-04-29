@@ -17,10 +17,10 @@ $('.autoplay').slick({
       }
     },
     {
-      breakpoint: 1300,
+      breakpoint: 992,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         infinite:true,
         dots:false,
       }
@@ -38,3 +38,13 @@ $('.autoplay').slick({
 });
 
 
+  // OFF CANVAS
+  const canvas = document.querySelector('.off-canvas')
+const button = document.querySelector('.close')
+
+
+button.addEventListener("click", _ => {
+ // var canvasWidth = canvas.clientWidth;
+canvas.classList.toggle('open')
+
+})

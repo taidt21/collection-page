@@ -18,21 +18,26 @@ a{
 /*TOP BAR*/
 .top-bar{
     background-color: #1e1e1e;
-    height: 59px;
+    height:59px;
 }
 .top-bar p{
     font-size: 10px;
-    line-height: 59px;
+    padding-top: 24px;
+    padding-bottom: 28px;
+    height:59px;
+    
 }
 .top-bar .close{
     top:21px;
     right: 0;
     bottom: 26px;
 }
-
+.open{
+    display: none;
+}
 /*MAIN HEAER*/
 .eveland{
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 .main-header{
     background-color: #f1f1f1; 
@@ -48,6 +53,17 @@ a{
     top:-4.20px;
     right:-11px;
 }
+.me-40{
+    margin-right: 40px;
+}
+.me-35{
+    margin-right:35px;
+}
+.me-44{
+    margin-right: 44px;
+}.me-17{
+    margin-right: 17px;
+}
 /*SECTION HOME*/
 .home{
     background-image: url(img/Rectangle-4-copy-3.jpg);
@@ -56,7 +72,6 @@ a{
     background-size: cover;
     background-position:top right;
     background-repeat: no-repeat;
-    
 }
 .spring {
     margin-left:20%;
@@ -72,12 +87,9 @@ a{
     border-bottom: 2px solid #fff;
     max-width: 97px;
 }
-
 .home .container{
     min-height: 364px;
 }
-  
-
 #price{
     width: 100%;
 }
@@ -154,7 +166,6 @@ input[type=radio]:checked,input[type=radio]:active{
 .collection .col-lg-3 h3{
     color:#010101 ;
 }
-
 .btn-hover{
     color:#b0b0b0!important;
     border-color: #b0b0b0 !important;
@@ -171,7 +182,6 @@ input[type=radio]:checked,input[type=radio]:active{
     margin-left: 36px;
     border-color: #e0e0e0;
 }
-
 .pour-2{
     margin: 0 40px;
 }
@@ -197,7 +207,6 @@ div.mt-15{
 .number{
     margin-left:35px;
 }
-
 .number-item{
     width: 36px;
     height: 36px;
@@ -219,15 +228,7 @@ div.mt-15{
 .shop-3{
     margin-top: 130px;
 }
-.hat-red{
-    padding:43.01px 47.50px;
-    background-color: #f1f1f1;
-    width: 320px;
-    
-}
-.hat{
-    display: none!important;
-}
+
 .shop-4 .slick-dots li:first-child button{
     background-color:#000000 ;
 }
@@ -243,7 +244,10 @@ div.mt-15{
 .Bestseller-shop .slick-dots{
     top:500px;
 }
-
+.slick-slide{
+    /* width: 320px!important; */
+    margin-right:40px;
+}
 .slick-dots{
     display: -webkit-box!important;
     display: -ms-flexbox!important;
@@ -256,7 +260,9 @@ div.mt-15{
 .slick-dots li:nth-child(2){
     margin: 0 16px;
 }
-
+.slick-slider{
+    height: 500px!important;
+}
 .slick-dots button{
     font-size:0;
     height: 12px;

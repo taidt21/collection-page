@@ -25,6 +25,10 @@
          text-align: center;
          margin:0 auto;
      }
+     .autoplay div{
+         text-align: center;
+     }
+     
  }
  @media(max-width:1300px){
      .pour{
