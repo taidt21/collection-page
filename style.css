@@ -72,8 +72,9 @@ a{
     background-color: #f1f1f1; 
     min-height:508px;
     background-size: cover;
-    background-position:center center;
+    background-position:center right;
     background-repeat: no-repeat;
+    margin-top: -75px;
 }
 .spring {
     margin-left:20%;
