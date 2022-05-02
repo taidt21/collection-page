@@ -52,8 +52,8 @@ a{
 .badge-quantity{
     height: 24px;
     width: 24px;
-    top:-4.20px;
-    right:-11px;
+    top:-11px;
+    right:-15px;
 }
 .me-40{
     margin-right: 40px;
@@ -120,7 +120,7 @@ a{
     margin:0 10px;
 }
 .size-item:hover,.size-item:active,.size-item:focus{
-    background-color: #48c8fd;
+    background-color: #48c8fd!important;
     border-color: #48c8fd;
     color: #fff;
 }
@@ -205,7 +205,7 @@ input[type=radio]:checked,input[type=radio]:active{
     border-color: #e0e0e0;
 }
 .pour-2{
-    margin: 0 40px;
+    margin: 0 20px;
 }
 .mt-40{
     margin-top: 40px;
@@ -267,8 +267,7 @@ div.mt-15{
     top:500px;
 }
 .slick-slide{
-    /* width: 320px!important; */
-    margin-right:40px;
+    margin:0 20px;
 }
 .slick-dots{
     display: -webkit-box!important;
@@ -310,9 +309,10 @@ div.mt-15{
     color: #c1c1c1;
     
 }
-.page-link-border:hover{
+.page-link-border:hover,.page-link-border:active,.page-link-border:focus{
     border-color: #000;
     color: #000;
+    background-color: #fff!important;
 }
 
 /*FOOTER*/

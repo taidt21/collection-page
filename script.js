@@ -2,7 +2,7 @@ $('.autoplay').slick({
   slidesToShow: 3,
   slidesToScroll: 3,
   autoplay: true,
-  autoplaySpeed: 1000,
+  autoplaySpeed: 2000,
   dots:true,
   prevArrow: false,
   nextArrow: false,
