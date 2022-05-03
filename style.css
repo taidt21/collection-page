@@ -116,6 +116,7 @@ a{
     text-align: center;
     color:#b0b0b0;
     margin:0 10px;
+    font-weight: 500;
 }
 .size-item:hover,.size-item:active,.size-item:focus{
     background-color: #48c8fd!important;
@@ -148,37 +149,50 @@ a{
     font-size: 24px!important;
 }
 
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: smaller!important;
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+    background-clip: content-box;
+    border: 1px solid #b4b4b4;
+    border-radius: 50%;
+  }
+  .form-check-input:checked[type=radio] {
+      background-image: none;
+  }
+
 #light-brown{
-    background-image: url(img/Copperfield.png);
+    background-color: #dc8e6a;
 }
 #violet{
-    background-image: url(img/Lavender.png);
+    background-color: #b36cd4;
 }
 #light-blue{
-    background-image:url(img/Viking.png);
+    background-color: #6adcd8;
 }
 #brown-black{
-    background-image: url(img/Cedar.png);
+    background-color: #371d11;
 }
 #grey{
-    background-image:url(img/Mercury.png);
+    background-color: #e7e7e7;
 }
 #dark-blue{
-    background-image:url(img/Viking2.png)
+    background-color: #6ab2dc;
 }
 #dark{
-    background-image: url(img/Black.png);
+    background-color: #000;
 }
 #light-red{
-    background-image: url(img/Mandy.png);
+    background-color: #e85757;
 }
-input[type=radio]{
-    background-size: 85%;
-}
+
 input[type=radio]:checked,input[type=radio]:active{
     box-shadow: none!important;
     border-color: #000;
-    background-color: #fff;
 }
 .collection .nav-link-primary:hover,.nav-link-primary:active,.nav-link-primary:focus{
     color: #48c8fd!important;
