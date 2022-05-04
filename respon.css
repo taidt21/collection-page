@@ -1,12 +1,15 @@
-@media(min-width:992px){
+@media(min-width:1400px){
     
      section .container{
          max-width: 1400px;
      }
      
-     header .container, .section.home .container{
-         max-width: 1640px;
-     } 
+    
+ }
+ @media(min-width:1600px){
+    header .container, .section.home .container{
+        max-width: 1640px;
+    } 
  }
  @media(max-width:768px){
      .align-reponsive{
