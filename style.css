@@ -95,7 +95,7 @@ a{
     font-size: 14px;
 }
 .collection .nav-link{
-    line-height: 2.5;
+    
     text-transform: capitalize;
 }
 .text-dark-grey{
@@ -294,8 +294,9 @@ div.mt-15{
 .Bestseller-shop .slick-dots{
     top:500px;
 }
-.slick-slide{
-    margin:0 20px;
+.slick-initialized .slick-slide{
+    margin: 0 20px;
+    
 }
 .slick-dots{
     display: -webkit-box!important;
@@ -309,9 +310,13 @@ div.mt-15{
 .slick-dots li:nth-child(2){
     margin: 0 16px;
 }
-.slick-slider{
-    height: 500px!important;
+.slick-slide img{
+    
+    object-fit: cover;
 }
+/* .slick-slider{
+    height: 500px!important;
+} */
 .slick-dots button{
     font-size:0;
     height: 12px;
@@ -386,11 +391,3 @@ footer >hr{
 footer .container:last-child{
     height:76px;
 }
-
-  
-  
-
-  
-
-
-  
