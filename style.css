@@ -161,7 +161,7 @@ input[type="radio"] {
       background-image: none;
   }
 
-#light-brown{
+#light-brown{ 
     background-color: #dc8e6a;
 }
 #violet{
@@ -377,9 +377,9 @@ footer .col hr{
      background-color:rgb(237, 229, 229);
      color: #222!important;
  }
-
-  
-
+footer .w-55{
+    width: 55px;
+}
 footer .col-md-4 hr{
     background-color: #48c8fd;
     height: 2px;
